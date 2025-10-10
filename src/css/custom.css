@@ -6,29 +6,38 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #1976d2;
-  --ifm-color-primary-dark: #1565c0;
-  --ifm-color-primary-darker: #1360b5;
-  --ifm-color-primary-darkest: #0d47a1;
-  --ifm-color-primary-light: #1e88e5;
-  --ifm-color-primary-lighter: #2196f3;
-  --ifm-color-primary-lightest: #42a5f5;
+  --ifm-color-primary: #667eea;
+  --ifm-color-primary-dark: #4c63e8;
+  --ifm-color-primary-darker: #3f57e6;
+  --ifm-color-primary-darkest: #2539d9;
+  --ifm-color-primary-light: #8099ec;
+  --ifm-color-primary-lighter: #93a5ee;
+  --ifm-color-primary-lightest: #c0cbf5;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --ifm-card-background-color: #ffffff;
+  --ifm-font-family-base: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --ifm-heading-font-weight: 700;
+  --ifm-line-height-base: 1.7;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #42a5f5;
-  --ifm-color-primary-dark: #2196f3;
-  --ifm-color-primary-darker: #1e88e5;
-  --ifm-color-primary-darkest: #1976d2;
-  --ifm-color-primary-light: #64b5f6;
-  --ifm-color-primary-lighter: #90caf9;
-  --ifm-color-primary-lightest: #bbdefb;
+  --ifm-color-primary: #8099ec;
+  --ifm-color-primary-dark: #667eea;
+  --ifm-color-primary-darker: #5570e8;
+  --ifm-color-primary-darkest: #3f57e6;
+  --ifm-color-primary-light: #93a5ee;
+  --ifm-color-primary-lighter: #a6b3f0;
+  --ifm-color-primary-lightest: #c0cbf5;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-  --ifm-card-background-color: #242526;
+  --ifm-card-background-color: #1e1e1e;
+  --ifm-background-color: #0d1117;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
 }
 
 /* Professional portfolio styling */
@@ -38,21 +47,34 @@
 }
 
 .markdown h1 {
-  border-bottom: 2px solid var(--ifm-color-primary);
-  padding-bottom: 0.5rem;
-  margin-bottom: 1.5rem;
+  border-bottom: 3px solid var(--ifm-color-primary);
+  padding-bottom: 0.75rem;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  font-weight: 800;
 }
 
 .markdown h2 {
-  margin-top: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
   color: var(--ifm-color-primary);
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.markdown h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  font-size: 1.5rem;
 }
 
 /* Improve link styling */
 .markdown a {
   text-decoration: none;
-  border-bottom: 1px solid var(--ifm-color-primary-lighter);
-  transition: border-bottom-color 0.2s;
+  color: var(--ifm-color-primary);
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s ease;
 }
 
 .markdown a:hover {
@@ -61,16 +83,79 @@
 
 /* Better code blocks */
 .markdown pre {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Enhanced buttons */
+.button {
+  font-weight: 600;
   border-radius: 8px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button:hover {
+  transform: translateY(-2px);
+}
+
+/* Navbar enhancements */
+.navbar {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.navbar__link {
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+/* Footer styling */
+.footer {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.footer__link-item {
+  color: rgba(255, 255, 255, 0.9);
+  transition: color 0.2s ease;
+}
+
+.footer__link-item:hover {
+  color: white;
+}
+
+.footer__title {
+  color: white;
+  font-weight: 600;
+}
+
+.footer__copyright {
+  color: rgba(255, 255, 255, 0.8);
 }
 
 /* Responsive typography */
 @media (max-width: 768px) {
   .markdown h1 {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
   
   .markdown h2 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
+
+  .markdown h3 {
+    font-size: 1.3rem;
+  }
+}
+
+/* Improved card shadows on hover */
+[class*='card']:hover {
+  box-shadow: 0 12px 24px rgba(102, 126, 234, 0.15);
+}
+
+/* Better focus states for accessibility */
+a:focus,
+button:focus {
+  outline: 2px solid var(--ifm-color-primary);
+  outline-offset: 2px;
 }
