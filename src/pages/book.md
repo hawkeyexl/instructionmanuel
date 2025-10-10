@@ -1,0 +1,55 @@
+# Docs as Tests: A Strategy for Resilient Technical Documentation
+
+**A comprehensive guide to building documentation that stays accurate, up-to-date, and reliable.**
+
+## About the Book
+
+*Docs as Tests* introduces a practical approach to maintaining technical documentation by treating it like code—testable, verifiable, and integrated into your development workflow. This strategy helps teams keep their documentation in sync with rapid product changes, reducing errors and improving the user experience.
+
+## What You'll Learn
+
+- **Core Concepts**: Understanding the docs-as-tests philosophy and how it transforms documentation practices
+- **Implementation Strategies**: Practical approaches to integrate documentation testing into your workflow
+- **Automation Techniques**: Using tools like Doc Detective to automate documentation validation
+- **Real-World Examples**: Case studies from major tech companies implementing docs-as-tests
+- **Best Practices**: Proven strategies for scaling documentation testing across teams
+
+## Who It's For
+
+This book is designed for:
+
+- **Technical Writers** looking to improve documentation accuracy and reduce maintenance burden
+- **Software Engineers** interested in better developer experience and reliable docs
+- **Product Managers** seeking to ensure documentation quality at scale
+- **QA Professionals** expanding testing practices to include documentation
+
+## Key Benefits
+
+Testing your documentation helps you:
+
+- **Catch errors early**: Find broken instructions before users do
+- **Maintain accuracy**: Ensure docs stay synchronized with product changes
+- **Reduce maintenance**: Automate repetitive validation tasks
+- **Build confidence**: Know your documentation works when users need it
+- **Scale effectively**: Apply consistent quality standards across all docs
+
+## Get the Book
+
+The book is available through multiple channels:
+
+- [**Amazon**](https://www.amazon.com/Docs-Tests-Resilient-Technical-Documentation-ebook/dp/B0F1H97QSL) - Kindle and paperback formats
+- [**Boffin Education**](https://boffin.education/docs-as-tests/) - Direct purchase options
+
+## Related Resources
+
+- **[Docs as Tests Blog](https://www.docsastests.com)** - Ongoing insights and updates
+- **[Doc Detective](https://doc-detective.com)** - The open-source testing framework
+- **[My Talks](/talks)** - Conference presentations on docs-as-tests strategies
+
+## About the Author
+
+Manny Silva is Head of Documentation at Skyflow and creator of the Docs as Tests methodology. With experience at companies like Apple and Google, he's developed practical strategies for keeping documentation resilient at scale. His work focuses on building tools and processes that make documentation testing accessible and effective for teams of all sizes.
+
+---
+
+*Questions about the book or docs-as-tests approach? [Connect on LinkedIn](https://www.linkedin.com/in/manuelrbsilva) or check out the [blog](https://www.docsastests.com).*
