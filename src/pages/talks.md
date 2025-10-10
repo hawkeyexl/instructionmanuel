@@ -119,7 +119,8 @@ The tone is humble yet confident—sharing what works, what doesn't, and the les
 - **[Docs as Tests Book](/book)** - Deep dive into documentation testing strategies
 - **[Doc Detective](/doc-detective)** - Open-source documentation testing framework
 - **[Docs as Tests Blog](https://www.docsastests.com)** - Ongoing insights and updates
-- **[My Blog](/blog)** - Personal thoughts on technical writing and engineering
+- **[My Blog](/)** - Personal thoughts on technical writing and engineering
+- **[Portfolio](/portfolio)** - Overview of my work and projects
 
 ---
 

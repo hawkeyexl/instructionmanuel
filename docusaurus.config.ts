@@ -52,7 +52,7 @@ const config: Config = {
           onUntruncatedBlogPosts: 'warn',
           blogTitle: 'Manny Silva\'s Blog',
           blogDescription: 'Thoughts on technical writing, documentation, and engineering',
-          routeBasePath: 'blog',
+          routeBasePath: '/', // Blog is now the main entry point
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -74,8 +74,9 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
-        {to: '/blog', label: 'Blog', position: 'left'},
-        {to: '/book', label: 'Docs as Tests Book', position: 'left'},
+        {to: '/', label: 'Home', position: 'left'},
+        {to: '/portfolio', label: 'Portfolio', position: 'left'},
+        {to: '/book', label: 'Book', position: 'left'},
         {to: '/doc-detective', label: 'Doc Detective', position: 'left'},
         {to: '/talks', label: 'Talks', position: 'left'},
         {
@@ -96,6 +97,10 @@ const config: Config = {
         {
           title: 'Work',
           items: [
+            {
+              label: 'Portfolio',
+              to: '/portfolio',
+            },
             {
               label: 'Docs as Tests Book',
               to: '/book',
@@ -130,10 +135,6 @@ const config: Config = {
         {
           title: 'More',
           items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
             {
               label: 'Doc Detective Website',
               href: 'https://doc-detective.com',
