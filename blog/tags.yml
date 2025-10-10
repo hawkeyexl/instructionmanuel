@@ -1,19 +1,19 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+documentation:
+  label: Documentation
+  permalink: /documentation
+  description: Documentation strategies and best practices
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+testing:
+  label: Testing
+  permalink: /testing
+  description: Documentation testing and quality assurance
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+tools:
+  label: Tools
+  permalink: /tools
+  description: Documentation tools and frameworks
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+engineering:
+  label: Engineering
+  permalink: /engineering
+  description: Software engineering and developer experience
