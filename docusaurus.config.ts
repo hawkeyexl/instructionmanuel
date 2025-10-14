@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Manny Silva',
+  title: 'Instruction Manuel',
   tagline: 'Technical Writer & Engineer',
   favicon: 'img/favicon.ico',
 
@@ -62,16 +62,15 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/social-card.png',
     colorMode: {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'Manny Silva',
+      title: 'Instruction Manuel',
       logo: {
-        alt: 'Manny Silva',
-        src: 'img/logo.svg',
+        alt: 'Instruction Manuel',
+        src: 'img/instruction-manuel-logo.png',
       },
       items: [
         {to: '/', label: 'Home', position: 'left'},
@@ -146,7 +145,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Manny Silva. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Manny Silva.`,
     },
     prism: {
       theme: prismThemes.github,

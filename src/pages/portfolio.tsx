@@ -34,12 +34,12 @@ function HomepageHeader() {
               <Link
                 className={clsx('button button--primary button--lg', styles.heroCta)}
                 to="/book">
-                View My Book
+                Read my book
               </Link>
               <Link
                 className={clsx('button button--outline button--lg', styles.heroCtaSecondary)}
                 to="/talks">
-                See My Talks
+                See my talks
               </Link>
             </div>
             <div className={styles.heroSocial}>
@@ -87,13 +87,13 @@ function PortfolioSection() {
       icon: "✍️",
       external: true
     },
-    {
-      title: "Talks & Presentations",
-      description: "Speaking at conferences and events about documentation testing, AI-driven documentation, and building better developer experiences. Recent talks include Self-Healing Docs and RAG strategies for LLMs.",
-      link: "/talks",
-      linkText: "View Talks",
-      icon: "🎤"
-    }
+    // {
+    //   title: "Talks & Presentations",
+    //   description: "Speaking at conferences and events about documentation testing, AI-driven documentation, and building better developer experiences. Recent talks include Self-Healing Docs and RAG strategies for LLMs.",
+    //   link: "/talks",
+    //   linkText: "View Talks",
+    //   icon: "🎤"
+    // }
   ];
 
   return (
