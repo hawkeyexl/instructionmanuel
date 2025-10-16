@@ -71,7 +71,7 @@ const config: Config = {
       title: 'Instruction Manuel',
       logo: {
         alt: 'Instruction Manuel',
-        src: 'img/instruction-manuel-logo.png',
+        src: 'img/logo.png',
       },
       items: [
         {to: '/', label: 'Home', position: 'left'},
