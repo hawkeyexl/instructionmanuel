@@ -23,7 +23,8 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'hawkeyexl', // Usually your GitHub org/user name.
-  projectName: 'instructionmanuel', // Usually your repo name.
+  projectName: 'instructionmanuel.github.io', // Usually your repo name.
+  trailingSlash: false, // Remove trailing slashes from URLs
 
   onBrokenLinks: 'throw',
 
