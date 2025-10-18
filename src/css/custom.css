@@ -159,3 +159,35 @@ button:focus {
   outline: 2px solid var(--ifm-color-primary);
   outline-offset: 2px;
 }
+
+/* Table of Contents (ToC) mobile visibility fix */
+@media (max-width: 996px) {
+  /* Re-enable ToC wrapper display on mobile */
+  .tableOfContents_bqdL {
+    display: block !important;
+    position: static !important;
+    max-height: none !important;
+    margin-bottom: 2rem;
+  }
+  
+  /* Re-enable ToC display on mobile */
+  .table-of-contents {
+    display: block !important;
+    position: static !important;
+    max-height: none !important;
+    padding: 1rem;
+    background-color: var(--ifm-background-surface-color);
+    border: 1px solid var(--ifm-color-emphasis-300);
+    border-radius: var(--ifm-global-radius);
+  }
+  
+  /* Add a label for the ToC on mobile */
+  .table-of-contents::before {
+    content: "On this page";
+    display: block;
+    font-weight: var(--ifm-font-weight-bold);
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+    color: var(--ifm-heading-color);
+  }
+}
