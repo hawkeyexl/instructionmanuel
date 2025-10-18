@@ -101,12 +101,20 @@ html {
 /* Navbar enhancements */
 .navbar {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(10px);
 }
 
 .navbar__link {
   font-weight: 500;
   transition: color 0.2s ease;
+}
+
+/* Fix mobile menu z-index stacking */
+.navbar-sidebar__backdrop {
+  z-index: 100;
+}
+
+.navbar-sidebar {
+  z-index: 101;
 }
 
 /* Footer styling */
