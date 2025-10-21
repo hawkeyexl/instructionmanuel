@@ -4,7 +4,7 @@
 
 ## Overview
 
-Doc Detective is a tool that treats documentation as testable code. It automates the process of verifying that your documentation accurately reflects your product's behavior, catching broken instructions, outdated screenshots, and integration issues before your users encounter them.
+Doc Detective is a tool that treats documentation as testable assertions of product behavior. It automates the process of verifying that your documentation accurately reflects your users' experiences, catching broken instructions, outdated screenshots, and integration issues before your users encounter them.
 
 ## What It Does
 
