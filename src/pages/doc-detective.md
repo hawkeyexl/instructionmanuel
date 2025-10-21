@@ -16,6 +16,10 @@ Doc Detective helps you:
 - **Detect breaking changes**: Get notified when product updates break existing docs
 - **Integrate with CI/CD**: Run documentation tests as part of your development pipeline
 
+## Philosophy
+
+Doc Detective is built on the principle that documentation should be treated as testable assertions of product behavior. By applying software testing practices to documentation, teams can build more reliable, maintainable, and user-friendly docs.
+
 ## Key Features
 
 ### Automated Testing
@@ -38,76 +42,12 @@ Integrate Doc Detective into your continuous integration pipeline. Catch documen
 
 Support for various documentation formats (Markdown, HTML, custom formats) and testing scenarios (API testing, UI testing, command-line testing).
 
-## Getting Started
-
-### Installation
-
-```bash
-npm install -g doc-detective
-```
-
-### Quick Example
-
-```json
-{
-  "tests": [
-    {
-      "id": "verify-login",
-      "description": "Test login workflow",
-      "steps": [
-        { "action": "goTo", "url": "https://example.com/login" },
-        { "action": "typeKeys", "keys": "user@example.com", "elementId": "email" },
-        { "action": "typeKeys", "keys": "password123", "elementId": "password" },
-        { "action": "click", "elementId": "login-button" },
-        { "action": "wait", "duration": 2000 },
-        { "action": "checkLink", "url": "https://example.com/dashboard" }
-      ]
-    }
-  ]
-}
-```
-
-Run the test:
-
-```bash
-doc-detective runTests --input config.json
-```
-
 ## Resources
 
 - **[Official Website](https://doc-detective.com)** - Full documentation and guides
 - **[GitHub Repository](https://github.com/doc-detective/doc-detective)** - Source code and issue tracking
-- **[Getting Started Guide](https://doc-detective.com/docs/start)** - Step-by-step setup instructions
-- **[API Reference](https://doc-detective.com/docs/reference)** - Complete API documentation
-
-## Use Cases
-
-### Product Documentation
-
-Test that user guides, tutorials, and how-to articles accurately reflect your product's current state.
-
-### API Documentation
-
-Validate that API examples, authentication flows, and integration guides work as documented.
-
-### Developer Onboarding
-
-Ensure setup guides, quickstart tutorials, and environment configurations are accurate and up-to-date.
-
-### Release Validation
-
-Automatically verify documentation before and after product releases to catch breaking changes.
-
-## Community & Support
-
-- **GitHub Issues**: Report bugs and request features
-- **Discussions**: Share use cases and best practices
-- **Contributing**: Help improve the project—contributions welcome
-
-## Philosophy
-
-Doc Detective is built on the principle that documentation should be treated like code. By applying software testing practices to documentation, teams can build more reliable, maintainable, and user-friendly docs.
+- **[Discord Community](https://discord.gg/2M7wXEThfF)** - Join the community for support and discussions
 
 ---
 
-*Want to learn more about the docs-as-tests approach? Check out the [Docs as Tests Book](/book) or explore [talks and presentations](/talks) on the topic.*
+*Want to learn more about the Docs as Tests? Check out the [book](/books/docs-as-tests) or explore [talks and presentations](/talks) on the topic.*

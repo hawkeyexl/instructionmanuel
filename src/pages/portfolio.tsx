@@ -33,7 +33,7 @@ function HomepageHeader() {
             <div className={styles.heroButtons}>
               <Link
                 className={clsx('button button--primary button--lg', styles.heroCta)}
-                to="/book">
+                to="/books/docs-as-tests">
                 Read my book
               </Link>
               <Link
@@ -66,7 +66,7 @@ function PortfolioSection() {
     {
       title: "Docs as Tests Book",
       description: "A comprehensive guide to building resilient technical documentation through automated testing. Learn strategies to keep your docs in sync with your product, reduce maintenance burden, and improve documentation quality.",
-      link: "/book",
+      link: "/books/docs-as-tests",
       linkText: "Learn More",
       icon: "📖",
       featured: true
@@ -87,13 +87,13 @@ function PortfolioSection() {
       icon: "✍️",
       external: true
     },
-    // {
-    //   title: "Talks & Presentations",
-    //   description: "Speaking at conferences and events about documentation testing, AI-driven documentation, and building better developer experiences. Recent talks include Self-Healing Docs and RAG strategies for LLMs.",
-    //   link: "/talks",
-    //   linkText: "View Talks",
-    //   icon: "🎤"
-    // }
+    {
+      title: "Talks & Presentations",
+      description: "Speaking at conferences and events about documentation testing, AI-driven documentation, and building better developer experiences. Recent talks include Self-Healing Docs and RAG strategies for LLMs.",
+      link: "/talks",
+      linkText: "View Talks",
+      icon: "🎤"
+    }
   ];
 
   return (

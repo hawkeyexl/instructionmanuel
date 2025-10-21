@@ -76,7 +76,7 @@ const config: Config = {
       items: [
         {to: '/', label: 'Home', position: 'left'},
         {to: '/portfolio', label: 'Portfolio', position: 'left'},
-        {to: '/book', label: 'Book', position: 'left'},
+        {to: '/books/docs-as-tests', label: 'Book', position: 'left'},
         {to: '/doc-detective', label: 'Doc Detective', position: 'left'},
         {to: '/talks', label: 'Talks', position: 'left'},
         {
@@ -103,7 +103,7 @@ const config: Config = {
             },
             {
               label: 'Docs as Tests Book',
-              to: '/book',
+              to: '/books/docs-as-tests',
             },
             {
               label: 'Doc Detective',
